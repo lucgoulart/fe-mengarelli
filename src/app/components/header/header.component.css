@@ -1,0 +1,31 @@
+.header{
+  background-color: #0e222d;
+  height: 60px;
+  width: 100%;
+
+}
+.block-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.block-buttons button {
+  font-size: 12px;
+  padding: 11px;
+  background-color: #153448;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.block-buttons button:hover {
+  background-color: #6b8da6;
+}
+
+.block-buttons button.selected {
+  background-color: #6b8da6;
+}
+
+

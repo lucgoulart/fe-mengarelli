@@ -1,0 +1,11 @@
+<div class="header">
+  <div class="block-buttons">
+    <button *ngFor="let button of buttons"
+            [ngClass]="{'selected': selectedButton === button.label}"
+            (click)="selectButton(button)">
+      {{ button.label }}
+    </button>
+  </div>
+
+
+</div>
